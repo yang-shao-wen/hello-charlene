@@ -18,6 +18,7 @@ helloCHARLENE is a remotely accessible monitoring system for a goldfish (Charlen
 
 ## System Map
 
+```
 INTERNET ----- Wireless Router ----- Pi 3
                192.168.1.1           wlan0: 192.168.1.100
                                      eth0: 192.168.0.100
@@ -35,6 +36,7 @@ INTERNET ----- Wireless Router ----- Pi 3
                              |                        |
                              |                        |
                            Camera                   Camera
+```
 
 ## System Configuration
 
