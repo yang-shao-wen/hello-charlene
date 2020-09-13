@@ -1,0 +1,11 @@
+[Unit]
+Description=Forward camera 2 port across interfaces
+After=plymouth-quit-wait.service
+After=systemd-user-sessions.service
+
+[Service]
+Type=simple
+ExecStart=/etc/systemd/system/forward-camera2.sh
+
+[Install]
+WantedBy=multi-user.target
